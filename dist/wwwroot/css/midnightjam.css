@@ -1,26 +1,8 @@
 /** @format */
 
 :root {
-	/* You can choose your favorite color to be the accent here:
-	Just copy past the Hex code (starts with an # example: #23ed24)
-	After copying your color, paste it after the '--accent:' on line 23) */
-
-	--accent: #475dcc; /* Dark blue */
-	--accent: #7289d9; /* Blurple (Discord blue purple) */
-	--accent: #6eaccc; /* Light Blue */
-	--accent: #6ecca8; /* Cyan */
-	--accent: #419941; /* Dark Green */
-	--accent: #7ccc6e; /* Light Green */
-	--accent: #cec96f; /* Yellow */
-	--accent: #cc7847; /* Orange */
-	--accent: #d39f74; /* Peach */
-	--accent: #cc4747; /* Red */
-	--accent: #d6758d; /* Pink */
-	--accent: #633499; /* Purple*/
-	--accent: #a475d8; /* Lilac*/
-
-	/* Paste your favorite color to be used as an accent down below:*/
-	--accent: #a475d8;
+	/*--accent: #7289d9; /* Blurple (Discord blue purple) */
+	--accent: #a475d8; /* Lilac/purple */
 }
 
 /*#######] [##################] [########]
