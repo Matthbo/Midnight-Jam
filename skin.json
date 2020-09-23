@@ -1,0 +1,13 @@
+{
+	"name": "Grande Omega Default",
+	"author": "Grande Omega",
+	"version": 1,
+
+	"resourceDir": "dist",
+	"screenshotsDir": "",
+
+	"modifiedFiles": ["index.html", "wwwroot/css/style.css"],
+	"addedFiles": ["wwwroot/themes/", "wwwroot/themes/Eiffel.json"],
+
+	"screenShots": []
+}
