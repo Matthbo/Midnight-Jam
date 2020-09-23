@@ -1,13 +1,13 @@
 {
-	"name": "Grande Omega Default",
-	"author": "Grande Omega",
+	"name": "Midnight Jam",
+	"author": "Horo",
 	"version": 1,
 
 	"resourceDir": "dist",
-	"screenshotsDir": "",
+	"screenshotsDir": "screenshots",
 
-	"modifiedFiles": ["index.html", "wwwroot/css/style.css"],
-	"addedFiles": ["wwwroot/themes/", "wwwroot/themes/Eiffel.json"],
+	"modifiedFiles": ["index.html", "main.js"],
+	"addedFiles": ["wwwroot/themes/", "wwwroot/themes/Midnight Jam.json", "wwwroot/css/midnightjam.css"],
 
-	"screenShots": []
+	"screenShots": ["1.png","2.png","3.png"],
 }

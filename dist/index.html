@@ -29,7 +29,6 @@
 		<!-- custom -->
 		<link rel="stylesheet" type="text/css" href="./wwwroot/css/style.css" />
 		<link rel="stylesheet" type="text/css" href="./wwwroot/css/glyphicons.scss" />
-
 		<script
 			src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
 			integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
@@ -48,6 +47,7 @@
 			crossorigin="anonymous"
 			defer
 		></script>
+		<link rel="stylesheet" type="text/css" href="./wwwroot/css/midnightjam.css" />
 
 		<link rel="stylesheet" type="text/css" href="./wwwroot/css/tippy.css" />
 
@@ -67,14 +67,16 @@
 			app.HomePage_to("react-content");
 		</script>
 
+		<!-- CUSTOM SCRIPT -->
 		<script type="text/javascript" src="https://unpkg.com/monaco-themes/dist/monaco-themes.js"></script>
 		<script type="text/javascript">
-			fetch("./wwwroot/themes/Eiffel.json")
+			fetch("./wwwroot/themes/Midnight Jam.json")
 				.then((data) => data.json())
 				.then((data) => {
 					monaco.editor.defineTheme("theme", data);
 					monaco.editor.setTheme("theme");
 				});
 		</script>
+		<!-- CUSTOM SCRIPT -->
 	</body>
 </html>

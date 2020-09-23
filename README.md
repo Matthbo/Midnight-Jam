@@ -1,10 +1,20 @@
 <!-- @format -->
 
-# Template Skin
+# Midnight Jam
 
-The default / Template skin for Grande Omega. Use this repo to create a new skin from scratch.
+A soothing dark mode skin for Grande Omega with your own accent.
 
-See the https://github.com/Grande-Omega-Skins/Fox-Dark skin for a basic dark mode skin.
+_Inspired by discord_
+
+---
+
+## Screenshots
+
+![](screenshots/1.png)
+
+![](screenshots/2.png)
+
+![](screenshots/3.png)
 
 ---
 
@@ -14,7 +24,7 @@ See the https://github.com/Grande-Omega-Skins/Fox-Dark skin for a basic dark mod
 
 2. Download the latest release for this skin, see the release section on the right on the repo of that skin.
 
-3. Extract the contents of `template-skin/dist` on top of your resource folder.
+3. Extract the contents of `Midnight-Jam/dist` on top of your resource folder.
 
 4. Replace the files you're asked to replace. Next time you start Grande Omega it should appear in this skin.
 

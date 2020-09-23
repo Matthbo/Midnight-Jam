@@ -1,0 +1,794 @@
+/** @format */
+
+:root {
+	/*--accent: #7289d9; /* Blurple (Discord blue purple) */
+	--accent: #a475d8; /* Lilac/purple */
+}
+
+/*#######] [##################] [########]
+[#####]       Global Window        [#####]
+[########] [##################] [#######*/
+
+.container-fluid {
+	padding-right: initial;
+	padding-left: initial;
+}
+
+/*#######] [##################] [########]
+[#####]     Basic HTML Elements    [#####]
+[########] [##################] [#######*/
+
+html,
+.col-xs-12.col-md-4 {
+	background-color: #36393f;
+}
+
+table {
+	color: #b9bbbe;
+}
+
+a {
+	color: #3b36b5;
+}
+
+ul {
+	color: var(--accent);
+}
+
+ul li {
+	color: #fff;
+}
+
+td {
+	border-right: 1px solid #dee2e6;
+}
+
+/*#######] [##################] [########]
+[#####]        Main Content        [#####]
+[########] [##################] [#######*/
+
+.main-content h1,
+.main-content h2,
+.main-content h3,
+.main-content h4 {
+	color: #b9bbbe;
+}
+
+.main-content p {
+	color: #fff;
+}
+
+.main-content--scroll {
+	overflow: scroll;
+	overflow-x: initial;
+}
+
+.main-content {
+	padding-left: 0;
+}
+
+.main-content--scroll {
+	overflow: scroll;
+	overflow-x: initial;
+	padding-left: 15px;
+}
+
+/*#######] [##################] [########]
+[#####]           Navbar           [#####]
+[########] [##################] [#######*/
+
+.navbar {
+	-webkit-app-region: drag;
+	height: 18px;
+	border-top: 5px solid #202225;
+	background: #202225;
+	color: rgb(185, 187, 190);
+}
+
+.navbar div {
+	padding-right: 0.7em;
+	padding-bottom: 5px;
+}
+
+.navbar__button {
+	color: rgb(185, 187, 190);
+	font-size: 14px;
+	position: relative;
+	top: 30px;
+	right: -10px;
+	margin-top: initial;
+	margin-left: initial;
+	padding: initial;
+}
+
+.navbar__title {
+	font-size: 0.9rem;
+	position: relative;
+	top: -3px;
+}
+
+.navbar__button:hover {
+	color: initial;
+	background-color: initial;
+}
+
+.breadcrumb_red {
+	color: rgb(185, 187, 190);
+}
+
+.breadcrumb_red a {
+	color: rgb(185, 187, 190);
+}
+
+.breadcrumb {
+	top: 19px;
+	height: 49px;
+	background: #36393f;
+	color: rgb(185, 187, 190);
+	box-shadow: rgba(4, 4, 5, 0.2) 0px 1.4px 0px 0px;
+	font-size: initial;
+	font-weight: bolder;
+	padding-top: 0.9em;
+}
+
+.breadcrumb a {
+	color: rgb(185, 187, 190);
+}
+
+span.navbar__title + div a,
+span.navbar__title + div button {
+	padding: 0.5em;
+	margin-left: 1em;
+}
+
+span.navbar__title + div a:hover,
+span.navbar__title + div button:hover {
+	color: var(--accent);
+}
+
+.navbar .col-md-9.col-xs-12:first-child {
+	position: relative;
+	top: 31px;
+	height: 2.4em;
+	padding-bottom: 0px;
+}
+.navbar .col-md-9.col-xs-12:first-child .row {
+	padding-bottom: 0px;
+}
+
+/*#######] [##################] [########]
+[#####]      Course Selection      [#####]
+[########] [##################] [#######*/
+
+.card-title {
+	font-size: initial;
+	color: initial;
+}
+
+.card-body > p {
+	color: #8e9297;
+}
+
+.card-body > a {
+	color: #fff;
+}
+
+.row:not(.nav-item) {
+	margin-right: initial;
+	margin-left: initial;
+}
+
+.chapters-title h5,
+.exams-title h5 {
+	font-size: initial;
+	font-weight: initial;
+}
+
+.chapters-title,
+.exams-title {
+	margin-bottom: initial;
+	margin-left: initial;
+}
+
+.card.mb-3 {
+	background-color: transparent;
+}
+
+.chapter .card-title {
+	color: #fff;
+}
+
+.exams-title {
+	margin-top: initial;
+}
+
+.chapters-title,
+.exams-title,
+.mymain.container-fluid {
+	background-color: #2f3136;
+}
+
+.chapters-title > h5,
+.exams-title > h5 {
+	color: #fff;
+	padding-top: 0.3em;
+	padding-left: 1em;
+}
+
+.chapter:hover {
+	background-color: initial;
+	transform: initial;
+	color: initial;
+	transition: initial;
+}
+
+.chapter .card-title:hover {
+	text-decoration: underline;
+}
+
+.card-body {
+	background-color: #2f3136;
+	border-color: var(--accent);
+	border-style: solid;
+	border-width: 0 0 5px 0;
+	border-bottom-left-radius: 2px;
+	border-bottom-right-radius: 2px;
+	min-height: 8.5em;
+}
+
+.exams-title + .row .card-title:after {
+	content: "Warning: Using themes on exames is current not allowed. Any caught violations will meet consequences!!";
+	color: #e42d2d;
+	font-weight: bolder;
+	display: block;
+	height: auto;
+	width: 13em;
+}
+
+/*#######] [##################] [########]
+[#####]           Sidebar          [#####]
+[########] [##################] [#######*/
+
+.sidebar .nav-item {
+	min-height: 2.5em;
+}
+
+.sidebar .nav-item.active:after {
+	color: var(--accent);
+	width: 5px;
+}
+
+.sidebar {
+	border-right: 0px solid #202225;
+}
+
+.sidebar a {
+	-webkit-user-select: initial;
+	-webkit-user-drag: initial;
+	color: initial;
+}
+
+.sidebar .nav-item {
+	border-bottom: 1px solid #e9ecef;
+}
+
+.sidebar .nav-item:first-child {
+	border-top: 1px solid #e9ecef;
+}
+
+.sidebar .nav-item.active:after {
+	background: var(--accent);
+}
+
+.sidebar .nav-link {
+	color: #444;
+	font-size: 14px;
+}
+
+.sidebar .active .nav-link {
+	color: #3b36b5;
+}
+
+.sidebar .nav-link:hover {
+	text-decoration: underline;
+}
+
+.sidebar__icon--close.oi.oi-chevron-left,
+.sidebar__icon--open.oi.oi-chevron-right {
+	color: var(--accent);
+}
+
+/*#######] [##################] [########]
+[#####]         Excercises         [#####]
+[########] [##################] [#######*/
+
+.slide--image img {
+	width: initial;
+	height: auto;
+	max-width: 35em;
+}
+
+.slide .slide--markdown div p {
+	max-width: initial;
+	line-height: initial;
+}
+
+pre {
+	color: #fff;
+	background: #202225;
+	border-color: var(--accent);
+}
+
+.nav-item__icon.oi-media-record:before {
+	color: #b9bbbe;
+}
+
+.nav-item__icon.oi-circle-check:before {
+	color: var(--accent);
+}
+
+.nav-item__icon.oi-circle-x:before {
+	color: #a22f02;
+}
+
+.mymain {
+	margin-top: 69px;
+}
+.mymain__inner {
+	height: calc(100vh - var(--height-header));
+}
+
+.row {
+	background-color: #36393f;
+}
+
+span.mtable,
+span.hline {
+	color: #b9bbbe;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif,
+		"Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.chapters-title + .row,
+.exams-title + .row,
+.mymain.container-fluid > .row {
+	padding-top: 1em;
+}
+
+.mymain_inner.row {
+	padding-top: 0em;
+}
+
+.mymain_inner.row {
+	background-color: #2f3136;
+	border-bottom-color: transparent;
+	border-bottom-style: none;
+}
+
+.sidebar {
+	background-color: #202225;
+	border-style: none;
+	border-width: 0;
+}
+
+li.nav-item.row.align-items-center {
+	border-width: 0;
+	border-style: none;
+	background-color: #202225;
+}
+li.nav-item.row.align-items-center > a.nav-link.col {
+	color: #b9bbbe;
+	font-weight: bolder;
+}
+
+.myGlyphMarginHitClass {
+	background: #3fda85;
+	border-radius: 0;
+	border: 0px solid #000;
+	z-index: 5;
+}
+
+code {
+	color: var(--accent);
+	font-weight: bold;
+}
+
+/*#######] [##################] [########]
+[#####]           Editor           [#####]
+[########] [##################] [#######*/
+
+.monaco-editor {
+	padding-top: initial;
+}
+
+.myContentClassDotted {
+	background: rgba(170, 252, 170, 0.507);
+}
+
+.myContentClass {
+	background: rgba(170, 252, 170, 0.507);
+}
+
+.myContentEmptyClass {
+	background: rgba(170, 252, 170, 0.507);
+}
+
+.HiddenTestContent {
+	background: initial;
+	color: initial;
+}
+
+.myBreakPointHitClass {
+	background: rgba(66, 66, 46, 0.8);
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	background: #40444b;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: #2f3136;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+	background: #202225;
+}
+
+.attribute__row {
+	font-family: Consolas, "Courier New", monospace;
+	font-size: 14px;
+	background-color: initial;
+}
+
+.monaco-editor,
+.view-lines {
+	background-color: #2f3136;
+}
+
+.view-lines {
+	padding-left: 0.15em;
+}
+
+.margin-view-overlays {
+	background-color: #2b2d31;
+	-webkit-box-shadow: 5px 0px 4px -2px rgba(0, 0, 0, 0.75);
+	-moz-box-shadow: 5px 0px 4px -2px rgba(0, 0, 0, 0.75);
+	box-shadow: 5px 0px 4px -2px rgba(0, 0, 0, 0.75);
+}
+
+.line-numbers {
+	color: #fff !important;
+	font-weight: bold !important;
+	z-index: 5;
+}
+
+.monaco-editor .current-line ~ .line-numbers {
+	color: var(--accent) !important;
+	font-weight: bolder !important;
+}
+
+.mtk1 {
+	color: #e06c75 !important;
+}
+
+.mtk6 {
+	color: #61afef !important;
+}
+
+.mtk7 {
+	color: #d19a66 !important;
+}
+
+.mtk20 {
+	color: #98c379 !important;
+}
+
+.HiddenTestContent_no_after {
+	color: var(--accent) !important;
+}
+
+.HiddenTestContent_no_after {
+	margin-left: 0.1em;
+}
+
+/*#######] [##################] [########]
+[#####]      Right-Side-Panel      [#####]
+[########] [##################] [#######*/
+
+.custom_text_area:read-only {
+	background-color: rgb(254, 254, 254);
+	color: initial;
+}
+
+.mymain.container-fluid {
+	background-color: #36393f;
+}
+
+.breadcrumb + .mymain.container-fluid {
+	background-color: #2f3136;
+}
+
+.form-control.custom_text_area {
+	max-height: 250px !important;
+	min-height: 80px;
+	background-color: #2f3136;
+	color: #fff;
+	border-width: 0;
+}
+
+td div[style*="background-color: lightgreen"] {
+	background-color: #236323 !important;
+	border-top-left-radius: 3px !important;
+	border-top-right-radius: 3px !important;
+	color: #fff !important;
+	padding: 5px !important;
+}
+
+td div[style*="background-color: rgb(248, 215, 218)"] {
+	background-color: rgb(160, 52, 62) !important;
+	border-bottom-left-radius: 3px !important;
+	border-bottom-right-radius: 3px !important;
+	color: #fff !important;
+	padding: 5px !important;
+}
+
+.right-table__smtable .oi.oi-circle-check {
+	color: var(--accent) !important;
+}
+
+.right-table__smtable input {
+	border-width: 0px;
+}
+
+td.cell3,
+.right-table__smtable th {
+	font-weight: bolder;
+	background-color: #202225 !important;
+	color: #fff !important;
+	border-width: 0 !important;
+}
+
+.right-table__smtable td {
+	background-color: #2c2d2f !important;
+}
+
+.right-table__smtable tbody {
+	border-top-width: 0.3em;
+	border-color: #3e4042;
+}
+
+/* 
+td.cell3 {
+    border-color: #848688 !important;
+} */
+
+.right-table__smtable th {
+	border-color: #848688 !important;
+	border-top-left-radius: 2px;
+	border-top-right-radius: 2px;
+}
+
+/* .table .thead-light th {
+    background-color: #202225 !important;
+    color: #fff;
+} */
+
+.form-control {
+	border: none !important;
+	border-radius: 1px !important;
+}
+
+.form-group .oi.oi-circle-check {
+	color: var(--accent);
+}
+
+.form-group .oi.oi-circle-check:before {
+	margin-right: 5px !important;
+}
+
+.right-table__smtable table.table-hover.container.border {
+	border: none !important;
+	border-top-left-radius: 3px !important;
+	border-top-right-radius: 3px !important;
+}
+
+.toolbar.btn-toolbar + .row .row:first-child {
+	width: 0;
+}
+
+/*#######] [##################] [########]
+[#####]        Z-indexxing         [#####]
+[########] [##################] [#######*/
+
+.navbar {
+	z-index: 10;
+}
+
+.breadcrumb {
+	z-index: 5;
+}
+
+.mymain {
+	z-index: 3;
+}
+
+/*#######] [##################] [########]
+[#####]       Global Buttons       [#####]
+[########] [##################] [#######*/
+
+.btn.btn-primary.btn-sm {
+	background-color: var(--accent);
+	font-weight: bolder;
+	color: #fff;
+	border-width: 0;
+}
+
+.btn.btn-warning.btn-sm {
+	background-color: #ff5f5f;
+	font-weight: bolder;
+	color: #202225;
+	border-width: 0;
+}
+
+.btn.btn-success.btn-sm {
+	background-color: var(--accent);
+	font-weight: bolder;
+	color: #fff;
+}
+
+.btn-success {
+	background-color: var(--accent);
+	border-color: var(--accent);
+	color: #202225;
+}
+
+.btn-success:hover,
+.btn-success:active {
+	background-color: var(--accent);
+	border-color: var(--accent);
+	color: #fff;
+}
+
+.btn-success:focus {
+	box-shadow: none;
+}
+
+.btn.btn-light.btn-sm,
+.btn.btn-success.progress__button {
+	background-color: var(--accent);
+	color: #fff;
+	font-weight: bolder;
+	border-width: 0;
+}
+
+.btn.btn-danger.btn-sm {
+	background-color: #ff5f5f;
+	color: #fff;
+	font-weight: bolder;
+	border-width: 0;
+}
+
+.btn.btn-pagination.btn-light.btn-sm {
+	background-color: #b9bbbe;
+	color: #fff;
+	font-weight: bolder;
+}
+
+.pagination-wrapper .btn-primary.focus {
+	box-shadow: inherit;
+}
+
+.pagination-wrapper .border-success {
+	border-color: #64a7ff !important;
+}
+
+.pagination-wrapper .border-danger {
+	border-color: #f56875 !important;
+}
+
+.editor-wrapper button[class="btn btn-danger btn-sm"],
+.editor-wrapper button[class="btn btn-light btn-sm"],
+.editor-wrapper button[class="btn btn-success btn-sm"] {
+	margin: 1em 0 1em 0 !important;
+	border-width: 0 !important;
+	border-color: none !important;
+	color: #fff !important;
+}
+
+.toolbar.btn-toolbar button,
+.navbar__button,
+.editor-wrapper button[class="btn btn-danger btn-sm"],
+.editor-wrapper button[class="btn btn-light btn-sm"],
+.editor-wrapper button[class="btn btn-success btn-sm"],
+.btn.btn-pagination {
+	border-radius: 0px !important;
+}
+
+.btn.btn-pagination,
+.toolbar.btn-toolbar button {
+	margin: 0 !important;
+}
+
+.toolbar.btn-toolbar button:active,
+.navbar__button:active,
+.editor-wrapper button[class="btn btn-danger btn-sm"]:active,
+.editor-wrapper button[class="btn btn-light btn-sm"]:active,
+.editor-wrapper button[class="btn btn-success btn-sm"]:active,
+.btn.btn-pagination:active {
+	background-color: inherit !important;
+	transition: 0ms;
+	color: #fff !important;
+	height: -5px;
+}
+
+.toolbar.btn-toolbar button:focus,
+.navbar__button:focus,
+.editor-wrapper button[class="btn btn-danger btn-sm"]:focus,
+.editor-wrapper button[class="btn btn-light btn-sm"]:focus,
+.editor-wrapper button[class="btn btn-success btn-sm"]:focus,
+.btn.btn-pagination:focus {
+	box-shadow: none !important;
+	transition: 0ms;
+}
+
+/*#######] [##################] [########]
+[#####]        Global Tweaks       [#####]
+[########] [##################] [#######*/
+
+.alert.alert-danger {
+	margin-top: 1em;
+	background-color: #2f3136;
+	border-width: 0;
+}
+
+.alert.alert-danger h3 {
+	color: #d16e6e;
+}
+
+.alert.alert-danger div {
+	color: #b9bbbe;
+}
+
+.progress {
+	background-color: #202225;
+}
+
+.bg-success {
+	background-color: #34a1d6 !important;
+}
+
+.border {
+	border: none !important;
+}
+
+.alert-info {
+	background-color: var(--accent);
+	border-color: var(--accent);
+	color: #fff;
+	font-weight: bolder;
+	margin: 1em;
+}
+
+.myGlyphMarginClass {
+	background-color: var(--accent);
+	border-radius: 0;
+	border-width: 0;
+}
+
+.debugger.container-fluid th,
+.debugger.container-fluid td,
+.toolbar.btn-toolbar button {
+	border-width: 0;
+	border-color: none !important;
+}
+
+/* 
+.monaco-editor .current-line:after ~ .line-numbers {
+    width: 5px;
+    background-color: var(--accent);
+    display: block;
+} */
+/* ^^^^^^^^^^ WIP ^^^^^^^^^^ */
