@@ -255,7 +255,7 @@ span.navbar__title + div button:hover {
 }
 
 .exams-title + .row .card-title:after {
-	content: "Warning: Using themes on exames is currently not allowed. Any caught violations will meet consequences!!";
+	content: "Warning: Using themes on exames is current not allowed. Any caught violations will meet consequences!!";
 	color: #e42d2d;
 	font-weight: bolder;
 	display: block;

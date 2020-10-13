@@ -15,7 +15,7 @@ let mainWindow
 function createWindow () {
 
   // Create the browser window.
-  mainWindow = new BrowserWindow({width: 800, height: 600, webPreferences:{devTools:false},frame: false })
+  mainWindow = new BrowserWindow({width: 800, height: 600, webPreferences:{devTools:true},frame: false })
   mainWindow.setFullScreen(false)
 
   // mainWindow.setMenu(null)
