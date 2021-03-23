@@ -16,11 +16,13 @@
 	--accent: #d39f74; /* Peach */
 	--accent: #cc4747; /* Red */
 	--accent: #d6758d; /* Pink */
-	--accent: #633499; /* Purple*/
-	--accent: #a475d8; /* Lilac*/
+	--accent: #633499; /* Purple */
+	--accent: #a475d8; /* Lilac (The original default) */
 
-	/* Paste your favorite color to be used as an accent down below:*/
-	--accent: #a475d8;
+	/* Paste your favorite color to be used as an accent down below: */
+	/* --accent: #a475d8;  *//* Lilac (The original default) */
+	--accent: #cc4747;
+	--secondary-accent: #d39f74;
 }
 
 /*#######] [##################] [########]
@@ -72,7 +74,7 @@ td {
 	color: #b9bbbe;
 }
 
-.main-content p {
+.main-content p, .main-content li {
 	color: #fff;
 }
 
@@ -255,7 +257,7 @@ span.navbar__title + div button:hover {
 }
 
 .exams-title + .row .card-title:after {
-	content: "Warning: Using themes on exames is currently not allowed. Any caught violations will meet consequences!!";
+	content: "Warning: Using themes on exames is currently not allowed. Any caught violations will meet consequences!!"; /* https://youtu.be/iZlpsneDGBQ */
 	color: #e42d2d;
 	font-weight: bolder;
 	display: block;
@@ -342,7 +344,7 @@ pre {
 }
 
 .nav-item__icon.oi-circle-check:before {
-	color: var(--accent);
+	color: var(--secondary-accent);
 }
 
 .nav-item__icon.oi-circle-x:before {
@@ -407,7 +409,7 @@ li.nav-item.row.align-items-center > a.nav-link.col {
 }
 
 code {
-	color: var(--accent);
+	color: var(--secondary-accent);
 	font-weight: bold;
 }
 
@@ -554,7 +556,7 @@ td div[style*="background-color: rgb(248, 215, 218)"] {
 }
 
 .right-table__smtable .oi.oi-circle-check {
-	color: var(--accent) !important;
+	color: var(--secondary-accent) !important;
 }
 
 .right-table__smtable input {
@@ -638,7 +640,7 @@ td.cell3 {
 [########] [##################] [#######*/
 
 .btn.btn-primary.btn-sm {
-	background-color: var(--accent);
+	background-color: var(--secondary-accent);
 	font-weight: bolder;
 	color: #fff;
 	border-width: 0;
@@ -652,21 +654,21 @@ td.cell3 {
 }
 
 .btn.btn-success.btn-sm {
-	background-color: var(--accent);
+	background-color: var(--secondary-accent);
 	font-weight: bolder;
 	color: #fff;
 }
 
 .btn-success {
-	background-color: var(--accent);
-	border-color: var(--accent);
+	background-color: var(--secondary-accent);
+	border-color: var(--secondary-accent);
 	color: #202225;
 }
 
 .btn-success:hover,
 .btn-success:active {
-	background-color: var(--accent);
-	border-color: var(--accent);
+	background-color: var(--secondary-accent);
+	border-color: var(--secondary-accent);
 	color: #fff;
 }
 
@@ -676,10 +678,27 @@ td.cell3 {
 
 .btn.btn-light.btn-sm,
 .btn.btn-success.progress__button {
-	background-color: var(--accent);
+	background-color: var(--secondary-accent);
 	color: #fff;
 	font-weight: bolder;
 	border-width: 0;
+}
+
+.btn-danger {
+	background-color: #a22f02;
+	border-color: #a22f02;
+	color: #202225;
+}
+
+.btn-danger:hover,
+.btn-danger:active {
+	background-color: #a22f02;
+	border-color: #a22f02;
+	color: #fff;
+}
+
+.btn-danger:focus {
+	box-shadow: none;
 }
 
 .btn.btn-danger.btn-sm {

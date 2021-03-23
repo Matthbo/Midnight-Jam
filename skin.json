@@ -1,6 +1,6 @@
 {
-	"name": "Midnight Jam",
-	"author": "Horo",
+	"name": "Midnight Jam modified by Matthbo",
+	"authors": ["Horo", "Matthbo"],
 	"version": 1,
 
 	"resourceDir": "dist",
@@ -9,5 +9,5 @@
 	"modifiedFiles": ["index.html", "main.js"],
 	"addedFiles": ["wwwroot/themes/", "wwwroot/themes/Midnight Jam.json", "wwwroot/css/midnightjam.css"],
 
-	"screenShots": ["1.png","2.png","3.png"],
+	"screenShots": ["1.png","2.png","3.png"]
 }
